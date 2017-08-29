@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tv_volley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_volley"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_status"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_user_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_message"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_user_number"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_request_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_password"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_response_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_request_time"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_user_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_response_time"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_user_id"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_user_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_user_name"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_user_mobile"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_user_varifed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_user_email"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/tv_user_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_user_varifed"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="volley request result"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btn_volley"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Request" />
+
+</RelativeLayout>
